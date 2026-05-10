@@ -3,8 +3,8 @@
 ## Material:
 
 - [Agarose](https://www.sigmaaldrich.com/US/en/product/sial/a4018)
-- [1um fluorescent beads](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081) $$(1\times10^{7}\ \text{beads}/\mu\text{L})$$
-- [1um nonfluorescent beads ](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL) $$(4.55\times10^{7}\ \text{beads}/\mu\text{L})$$
+- [1um fluorescent beads](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081) $(1\times10^{7}\ \text{beads}/\mu\text{L})$
+- [1um nonfluorescent beads ](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL) $(4.55\times10^{7}\ \text{beads}/\mu\text{L})$
 
 ---
 
@@ -12,9 +12,9 @@
 
 1. Take 1 g of agarose per 100 mL of water as the base medium.
 2. The tissue phantom is prepared by mixing:
-- $$4\mu\text{L}$$ fluorescent beads
-- $$40\mu\text{L}$$nonfluorescent beads
-- $$156\mu\text{L}$$agarose solution
+- $4\,\mu\text{L}$ fluorescent beads
+- $40\,\mu\text{L}$ nonfluorescent beads
+- $156\,\mu\text{L}$ agarose solution
 3. The concentration of fluorescent beads:
 
 $$
@@ -77,10 +77,10 @@ $$
 - Gradually increase the Pockels cell value and record the corresponding laser power at the focal spot after the beam passes through the objective.
 3. **Determination of the Fluorescence Volume in the Tissue Phantom**
 - Place the slide on the sample stage. Lower the microscope so that the objective is close to the slide surface (distance less than 1 mm). Apply the appropriate immersion medium between the objective and the slide.
-- Set the laser power after the objective to 2 mW. Turn on the scanner and begin scanning the sample. Move the microscope z-stage with a step size of 10 µm to gradually move the objective away from the sample until fluorescence signal is first observed. Record the corresponding z-plane as $$(z_1)$$, which represents the lower boundary of the fluorescence volume.
-- Continue raising the microscope until the fluorescence signal completely disappears. Record the corresponding z-plane as $$(z_2)$$, which represents the upper boundary of the fluorescence volume.
+- Set the laser power after the objective to 2 mW. Turn on the scanner and begin scanning the sample. Move the microscope z-stage with a step size of 10 µm to gradually move the objective away from the sample until fluorescence signal is first observed. Record the corresponding z-plane as $z_1$, which represents the lower boundary of the fluorescence volume.
+- Continue raising the microscope until the fluorescence signal completely disappears. Record the corresponding z-plane as $z_2$, which represents the upper boundary of the fluorescence volume.
 4. **Scanning the Fluorescence Volume**
-- Scan the same fluorescence volume (($$z_2$$) to ($$z_1$$)) using a series of different laser powers after the objective (maximum power: 5 mW).
+- Scan the same fluorescence volume ($z_2$ to $z_1$) using a series of different laser powers after the objective (maximum power: 5 mW).
 - Use a step size of 10 µm between imaging planes.
 
 ---
@@ -92,7 +92,7 @@ $$
 - Correct all images by subtracting the background.
 2. **Determination of the Power Range for Unsaturated 2PE for each depth**
 - For each imaging depth, calculate the mean intensity of the top 1% brightest pixels in the image as the fluorescence signal at each power.
-- Perform a linear fit in log-log space using consecutive power values and their corresponding fluorescence signals, where the x-axis is ($$\log(\text{power})$$) and the y-axis is ($$\log(\text{signal})$$).
+- Perform a linear fit in log-log space using consecutive power values and their corresponding fluorescence signals, where the x-axis is $\log(\text{power})$ and the y-axis is $\log(\text{signal})$.
 - Determine the appropriate power range such that the slope of the fitted line is closest to 2, indicating unsaturated 2PE, as shown in the figure below.
 
 ![image.png](https://resv2.craft.do/user/full/e1644b40-7cd4-ed61-9739-88d040524f1b/doc/505820cd-96eb-405c-a1b1-f79c0074e4d1/7376f15a-ff6e-4e88-adab-36f9ef3acac4)
@@ -106,6 +106,6 @@ $$
 4. **EAL estimation**
 - For each selected depth, choose the second-highest power within the valid (non-saturated) power range and extract the corresponding fluorescence signal. Normalize the fluorescence signal by the excitation power.
 - Perform a linear fit between imaging depth and the log of the normalized fluorescence signal.
-- Obtain the slope $$k$$ and compute EAL using $$EAL= -2/k$$as shown below.
+- Obtain the slope $k$ and compute EAL using $\text{EAL} = -2/k$ as shown below.
 
 ![image.png](https://resv2.craft.do/user/full/e1644b40-7cd4-ed61-9739-88d040524f1b/doc/505820cd-96eb-405c-a1b1-f79c0074e4d1/98ad3d15-249f-4ce3-a974-97231cb7e1d1)
