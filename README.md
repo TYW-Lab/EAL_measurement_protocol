@@ -3,8 +3,8 @@
 ## Material:
 
 - [Agarose](https://www.sigmaaldrich.com/US/en/product/sial/a4018)
-- [1um fluorescent beads](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081) $(1\times10^{7}\ \text{beads}/\text{µL})$
-- [1um nonfluorescent beads ](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL) $(4.55\times10^{7}\ \text{beads}/\text{µL})$
+- [1um fluorescent beads](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081): $C_{fluo} = 1\times10^{7}\ \text{beads}/\text{µL}$
+- [1um nonfluorescent (polybead) beads](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL): $C_{poly} = 4.55\times10^{7}\ \text{beads}/\text{µL}$
 
 ---
 
@@ -18,23 +18,23 @@
 3. The concentration of fluorescent beads:
 
 $$
-\frac{C_{fluo} \times V_{fluo}}{V_{fluo} + V_{non} + V_{ag}}=
-\frac {1 \times 10^7 \times 4}{4+40+156}=
-2 \times 10^5\ \text{beads}/\text{µL}
+\frac{C_{fluo} \times V_{fluo}}{V_{fluo} + V_{poly} + V_{ag}}
+= \frac{(1 \times 10^{7}\ \text{beads}/\text{µL}) \times (4\ \text{µL})}{(4 + 40 + 156)\ \text{µL}}
+= 2 \times 10^{5}\ \text{beads}/\text{µL}
 $$
 
 4. The concentration of nonfluorescent beads:
 
 $$
-\frac{C_{non} \times V_{non}}{V_{fluo} + V_{non} + V_{ag}}=
-\frac {4.55 \times 10^7 \times 40}{4+40+156}=
-9.1 \times 10^6\ \text{beads}/\text{µL}
+\frac{C_{poly} \times V_{poly}}{V_{fluo} + V_{poly} + V_{ag}}
+= \frac{(4.55 \times 10^{7}\ \text{beads}/\text{µL}) \times (40\ \text{µL})}{(4 + 40 + 156)\ \text{µL}}
+= 9.1 \times 10^{6}\ \text{beads}/\text{µL}
 $$
 
 5. Ratio between nonfluorescent beads and fluorescent beads:
 
 $$
-R = \frac{9.1 \times 10^6\ \text{beads}/\text{µL}}{2 \times 10^5\ \text{beads}/\text{µL}}=45.5:1
+R = \frac{9.1 \times 10^{6}\ \text{beads}/\text{µL}}{2 \times 10^{5}\ \text{beads}/\text{µL}} = 45.5 : 1
 $$
 
 ---
