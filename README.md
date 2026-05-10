@@ -3,8 +3,8 @@
 ## Material:
 
 - [Agarose](https://www.sigmaaldrich.com/US/en/product/sial/a4018)
-- [1um fluorescent beads](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081) $(1\times10^{7}\ \text{beads}/\text{\mu}\text{L})$
-- [1um nonfluorescent beads ](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL) $(4.55\times10^{7}\ \text{beads}/\text{\mu}\text{L})$
+- [1um fluorescent beads](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081) $(1\times10^{7}\ \text{beads}/\mu\text{L})$
+- [1um nonfluorescent beads ](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL) $(4.55\times10^{7}\ \text{beads}/\mu\text{L})$
 
 ---
 
@@ -12,15 +12,15 @@
 
 1. Take 1 g of agarose per 100 mL of water as the base medium.
 2. The tissue phantom is prepared by mixing:
-- $4\ \text{\mu}\text{L}$ fluorescent beads
-- $40\ \text{\mu}\text{L}$ nonfluorescent beads
-- $156\ \text{\mu}\text{L}$ agarose solution
+- $4\,\mu\text{L}$ fluorescent beads
+- $40\,\mu\text{L}$ nonfluorescent beads
+- $156\,\mu\text{L}$ agarose solution
 3. The concentration of fluorescent beads:
 
 $$
 \frac{C_{fluo} \times V_{fluo}}{V_{fluo} + V_{non} + V_{ag}}=
 \frac {1 \times 10^7 \times 4}{4+40+156}=
-2 \times 10^5\ \text{beads}/\text{\mu}\text{L}
+2 \times 10^5\ \text{beads}/\mu\text{L}
 $$
 
 4. The concentration of nonfluorescent beads:
@@ -28,13 +28,13 @@ $$
 $$
 \frac{C_{non} \times V_{non}}{V_{fluo} + V_{non} + V_{ag}}=
 \frac {4.55 \times 10^7 \times 40}{4+40+156}=
-9.1 \times 10^6\ \text{beads}/\text{\mu}\text{L}
+9.1 \times 10^6\ \text{beads}/\mu\text{L}
 $$
 
 5. Ratio between nonfluorescent beads and fluorescent beads:
 
 $$
-R = \frac{9.1 \times 10^6\ \text{beads}/\text{\mu}\text{L}}{2 \times 10^5\ \text{beads}/\text{\mu}\text{L}}=45.5:1
+R = \frac{9.1 \times 10^6\ \text{beads}/\mu\text{L}}{2 \times 10^5\ \text{beads}/\mu\text{L}}=45.5:1
 $$
 
 ---
