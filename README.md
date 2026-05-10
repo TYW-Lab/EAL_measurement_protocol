@@ -4,7 +4,7 @@
 
 - [Agarose](https://www.sigmaaldrich.com/US/en/product/sial/a4018)
 - [1um fluorescent beads](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081): $C_{fluo} = 1\times10^{7}\ \text{beads}/\text{µL}$
-- [1um nonfluorescent (polybead) beads](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL): $C_{poly} = 4.55\times10^{7}\ \text{beads}/\text{µL}$
+- [1um non-fluorescent polystyrene beads](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL): $C_{poly} = 4.55\times10^{7}\ \text{beads}/\text{µL}$
 
 ---
 
@@ -12,9 +12,9 @@
 
 1. Take 1 g of agarose per 100 mL of water as the base medium.
 2. The tissue phantom is prepared by mixing:
-- $4\ \text{µL}$ fluorescent beads
-- $40\ \text{µL}$ nonfluorescent beads
-- $156\ \text{µL}$ agarose solution
+- Fluorescent beads: $V_{fluo} = 4\ \text{µL}$
+- Non-fluorescent polystyrene beads: $V_{poly} = 40\ \text{µL}$
+- Agarose solution: $V_{ag} = 156\ \text{µL}$
 3. The concentration of fluorescent beads:
 
 $$
@@ -23,7 +23,7 @@ $$
 = 2 \times 10^{5}\ \text{beads}/\text{µL}
 $$
 
-4. The concentration of nonfluorescent beads:
+4. The concentration of non-fluorescent polystyrene beads:
 
 $$
 \frac{C_{poly} \times V_{poly}}{V_{fluo} + V_{poly} + V_{ag}}
@@ -31,7 +31,7 @@ $$
 = 9.1 \times 10^{6}\ \text{beads}/\text{µL}
 $$
 
-5. Ratio between nonfluorescent beads and fluorescent beads:
+5. Ratio between non-fluorescent polystyrene beads and fluorescent beads:
 
 $$
 R = \frac{9.1 \times 10^{6}\ \text{beads}/\text{µL}}{2 \times 10^{5}\ \text{beads}/\text{µL}} = 45.5 : 1
@@ -52,7 +52,7 @@ $$
 - Slightly unscrew the cap of container of agarose.
 - Turn on the Cimarec stirring hotplate and set the stirring speed to 7. Heat until the agarose is fully dissolved and the solution becomes clear (approximately 30 min).
 3. **Make the tissue phantom samples.**
-- Retrieve one microcentrifuge tube from the cabinet *(labeled as 4 in the figure)* and place it into the tube rack *(labeled as 5 in the figure)*. Using the pipettes from the pipette stand *(labeled as 6 in the figure)*, pipette 4 µL of fluorescent beads with a 2–20 µL pipette and 40 µL of nonfluorescent beads with a 20–200 µL pipette into the same tube. Dispose of the pipette tips into the sharps container *(labeled as 7 in the figure)*.
+- Retrieve one microcentrifuge tube from the cabinet *(labeled as 4 in the figure)* and place it into the tube rack *(labeled as 5 in the figure)*. Using the pipettes from the pipette stand *(labeled as 6 in the figure)*, pipette 4 µL of fluorescent beads with a 2–20 µL pipette and 40 µL of non-fluorescent polystyrene beads with a 20–200 µL pipette into the same tube. Dispose of the pipette tips into the sharps container *(labeled as 7 in the figure)*.
 - Using a 20–200 µL pipette, pipette 156 µL of agarose from the container and dispense it into the same microcentrifuge tube. Keep the pipette tip below the liquid surface to avoid bubbles, and mix by pipetting up and down quickly to ensure even mixing before the agarose starts to gel.
 - Turn on the mini vortexer *(labeled as 8 in the figure)* and set the speed to 1400 rpm. Place the tube on the vortexer and mix thoroughly (approximately 40 second).
 - Using a 20–200 µL pipette, pipette 135 µL of the mixture and dispense it into the United Scientific cavity slide.
