@@ -41,7 +41,7 @@ $$
 
 ## Sample preparation
 
-![image.png](https://resv2.craft.do/user/full/e1644b40-7cd4-ed61-9739-88d040524f1b/doc/505820cd-96eb-405c-a1b1-f79c0074e4d1/855359f5-fece-4b1b-a00e-d558ac7aaf45)
+![Sample preparation setup](images/sample_preparation.png)
 
 1. **Make the agarose base medium (if we run out of it)**
 - Weigh 1 g of agarose powder using the balance *(labeled as 1 in the figure)*. Add the agarose powder to 100 mL of DI water in the container *(labeled as 2 in the figure)*, and place a magnetic stir bar into the container.
@@ -95,17 +95,17 @@ $$
 - Perform a linear fit in log-log space using consecutive power values and their corresponding fluorescence signals, where the x-axis is $\log(\text{power})$ and the y-axis is $\log(\text{signal})$.
 - Determine the appropriate power range such that the slope of the fitted line is closest to 2, indicating unsaturated 2PE, as shown in the figure below.
 
-![image.png](https://resv2.craft.do/user/full/e1644b40-7cd4-ed61-9739-88d040524f1b/doc/505820cd-96eb-405c-a1b1-f79c0074e4d1/7376f15a-ff6e-4e88-adab-36f9ef3acac4)
+![Log-log fit of fluorescence signal vs power](images/power_slope_fit.png)
 
 3. **Selection of the Depth Range for EAL Calculation**
 - Using the method described in Step 2, determine the optimal power range and the corresponding linear fitting slope for each imaging depth. A summary of the results is shown in the figure below.
 - Select a continuous depth range in which the optimal fitting slopes are close to or equal to 2. This depth range is then used for EAL calculation.
 
-![image.png](https://resv2.craft.do/user/full/e1644b40-7cd4-ed61-9739-88d040524f1b/doc/505820cd-96eb-405c-a1b1-f79c0074e4d1/04776d01-1363-4fd6-8bbb-762419fa829c)
+![Fitted slopes across imaging depths](images/depth_slope_summary.png)
 
 4. **EAL estimation**
 - For each selected depth, choose the second-highest power within the valid (non-saturated) power range and extract the corresponding fluorescence signal. Normalize the fluorescence signal by the excitation power.
 - Perform a linear fit between imaging depth and the log of the normalized fluorescence signal.
 - Obtain the slope $k$ and compute EAL using $\text{EAL} = -2/k$ as shown below.
 
-![image.png](https://resv2.craft.do/user/full/e1644b40-7cd4-ed61-9739-88d040524f1b/doc/505820cd-96eb-405c-a1b1-f79c0074e4d1/98ad3d15-249f-4ce3-a974-97231cb7e1d1)
+![EAL linear fit](images/eal_fit.png)
