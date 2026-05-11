@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PVScan version="5.8.64.700" date="4/3/2026 6:39:12 PM" notes="">
+  <SystemIDs SystemID="0C4C-1C51-AA8E-3ECE-39A6-BF63-E3DD-B34D">
+    <SystemID SystemID="4766" Description="Boas investigator/phosphescence lifetime" />
+  </SystemIDs>
+  <PVStateShard>
+    <PVStateValue key="activeMode" value="Galvo" />
+    <PVStateValue key="bitDepth" value="13" />
+    <PVStateValue key="currentScanAmplitude">
+      <IndexedValue index="XAxis" value="7.601308755" />
+      <IndexedValue index="YAxis" value="7.601308755" />
+    </PVStateValue>
+    <PVStateValue key="currentScanCenter">
+      <IndexedValue index="XAxis" value="0" />
+      <IndexedValue index="YAxis" value="0" />
+    </PVStateValue>
+    <PVStateValue key="daqGain">
+      <IndexedValue index="0" value="1" description="±1.25V" />
+      <IndexedValue index="1" value="-1" description="±1.25V" />
+    </PVStateValue>
+    <PVStateValue key="dwellTime" value="3" />
+    <PVStateValue key="framePeriod" value="0.909312" />
+    <PVStateValue key="interlacedScanTrackCount" value="0" />
+    <PVStateValue key="laserPower">
+      <IndexedValue index="0" value="0" description="Pockels" />
+    </PVStateValue>
+    <PVStateValue key="laserWavelength">
+      <IndexedValue index="0" value="920" description="Excitation 1" />
+    </PVStateValue>
+    <PVStateValue key="linesPerFrame" value="512" />
+    <PVStateValue key="maxVoltage">
+      <IndexedValue index="XAxis" value="1.08590125071429" />
+      <IndexedValue index="YAxis" value="1.08590125071429" />
+    </PVStateValue>
+    <PVStateValue key="micronsPerPixel">
+      <IndexedValue index="XAxis" value="0.226314484126984" />
+      <IndexedValue index="YAxis" value="0.226314484126984" />
+      <IndexedValue index="ZAxis" value="10" />
+    </PVStateValue>
+    <PVStateValue key="minVoltage">
+      <IndexedValue index="XAxis" value="-1.08590125071429" />
+      <IndexedValue index="YAxis" value="-1.08590125071429" />
+    </PVStateValue>
+    <PVStateValue key="objectiveLens" value="16X Nikon" />
+    <PVStateValue key="objectiveLensMag" value="16" />
+    <PVStateValue key="objectiveLensNA" value="0.8" />
+    <PVStateValue key="opticalZoom" value="7" />
+    <PVStateValue key="pixelsPerLine" value="512" />
+    <PVStateValue key="pmtGain">
+      <IndexedValue index="0" value="0" description="PMT 1 HV" />
+      <IndexedValue index="1" value="750" description="PMT 2 HV" />
+    </PVStateValue>
+    <PVStateValue key="positionCurrent">
+      <SubindexedValues index="XAxis">
+        <SubindexedValue subindex="0" value="-299.656" />
+      </SubindexedValues>
+      <SubindexedValues index="YAxis">
+        <SubindexedValue subindex="0" value="0.159" />
+      </SubindexedValues>
+      <SubindexedValues index="ZAxis">
+        <SubindexedValue subindex="0" value="-815.075" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="preampFilter" value="Filter2500KHz" description="2.50 MHz" />
+    <PVStateValue key="preampOffset">
+      <SubindexedValues index="0">
+        <SubindexedValue subindex="0" value="0" description="Ch1" />
+        <SubindexedValue subindex="1" value="0" description="Ch2" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="rastersPerFrame" value="8" />
+    <PVStateValue key="rotation" value="0" />
+    <PVStateValue key="samplesPerPixel" value="15" />
+    <PVStateValue key="scanLinePeriod" value="0.001776" />
+    <PVStateValue key="twophotonLaserDispersion">
+      <IndexedValue index="0" value="73" description="DeepSee" />
+    </PVStateValue>
+    <PVStateValue key="twophotonLaserPower">
+      <IndexedValue index="0" value="2740" />
+    </PVStateValue>
+    <PVStateValue key="useInterlacedScanPattern" value="False" />
+    <PVStateValue key="xYStageGridIndex" value="-1" />
+    <PVStateValue key="xYStageGridXIndex" value="-1" />
+    <PVStateValue key="xYStageGridYIndex" value="-1" />
+    <PVStateValue key="yAspectExpansion" value="1" />
+    <PVStateValue key="zDevice" value="0" />
+  </PVStateShard>
+  <Sequence type="Single" cycle="1" time="18:39:12.0749320" xYStageGridNumXPositions="4" xYStageGridNumYPositions="1" xYStageGridOverlapPercentage="2" xYStageGridXOverlap="16.2222222222222" xYStageGridYOverlap="16.2222222222222">
+    <PVStateShard />
+    <Frame relativeTime="0" absoluteTime="0.0219999999999345" index="1" parameterSet="CurrentSettings">
+      <File channel="2" channelName="Ch2" page="1" filename="SingleImage-04032026-1714-030_Cycle00001_Ch2_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard />
+    </Frame>
+  </Sequence>
+</PVScan>
