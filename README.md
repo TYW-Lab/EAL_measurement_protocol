@@ -132,7 +132,7 @@ Sample preparation setup
 
 ---
 
-## Data processing ([Example](https://github.com/garyhost0630/Multiphoton-attenuation-length-measurement))
+## Data processing ([Example](https://github.com/TYW-Lab/EAL_measurement_protocol/tree/main/example))
 
 1. **Background Subtraction**
 
