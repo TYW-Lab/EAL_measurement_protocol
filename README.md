@@ -3,8 +3,8 @@
 ## Materials:
 
 - [Agarose (Sigma Aldrich A4018-10G)](https://www.sigmaaldrich.com/US/en/product/sial/a4018)
-- [1um fluorescent beads (Thermo Fisher F13081)](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081): $C_{fluo} = 1\times10^{7}\ \text{beads}/\text{µL}$
-- [1um non-fluorescent polystyrene beads (Polysciences 07310)](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL): $C_{poly} = 4.55\times10^{7}\ \text{beads}/\text{µL}$
+- [1-µm fluorescent beads (Thermo Fisher F13081)](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081); bead concentration $C_{fluo} = 1\times10^{7}\ \text{beads}/\text{µL}$
+- [1-µm non-fluorescent polystyrene beads (Polysciences 07310)](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL); bead concentration $C_{poly} = 4.55\times10^{7}\ \text{beads}/\text{µL}$
 
 ---
 
@@ -70,65 +70,79 @@ $$
 
 Sample preparation setup
 
-1. **Make the agarose base medium (if we run out of it)**
+1. **Prepare bulk agarose stock.**
+
+If the agarose stock is not available, prepare fresh agarose stock following the steps below:
 
 - Weigh 1 g of agarose powder using the [scale](#eq-scale). Add the agarose powder to 100 mL of DI water in the [container](#eq-bottle), and place a [magnetic stir bar](#eq-stirbar) into the container.
 - Place the container into a [beaker](#eq-beaker), then pour 200 mL of water into the beaker.
 - Place the beaker on the [stirring hotplate](#eq-hotplate).
 - Set the hotplate temperature to 150 °C and set the stirring speed to 7. Heat until the agarose is fully dissolved and the solution becomes clear (approximately 30 min).
+- If we follow this step to prepare fresh agarose stock, skip step 2.
 
-1. **Heat up the agarose. (if we still have agarose in the container)**
+If the agarose stock is available, reheat it following the steps below:
 
 - Slightly unscrew the cap of container of agarose.
 - Turn on the [stirring hotplate](#eq-hotplate) and set the stirring speed to 7. Heat until the agarose is fully dissolved and the solution becomes clear (approximately 30 min).
 
-2. **Make the tissue phantom samples.**
+2. **Prepare the tissue phantom sample slide.**
 
 - Retrieve one [microcentrifuge tube](#eq-tubes) from the cabinet and place it into the [tube rack](#eq-rack). Using the pipettes from the pipette stand, pipette 4 µL of fluorescent beads with a [2–20 µL pipette](#eq-pipettes) and 40 µL of non-fluorescent polystyrene beads with a [20–200 µL pipette](#eq-pipettes) into the same tube. Dispose of the pipette tips into the [sharps container](#eq-sharpcontainer).
 - Using a 20–200 µL pipette, pipette 156 µL of agarose from the container and dispense it into the same microcentrifuge tube. Keep the pipette tip below the liquid surface to avoid bubbles, and mix by pipetting up and down quickly to ensure even mixing before the agarose starts to gel. Be sure to avoid generating bubbles during the process.
-- Turn on the [mini vortexer](#eq-vortexer) and set the speed to 1400 rpm. Place the tube on the vortexer and mix thoroughly (approximately 40 second).
+- Turn on the [mini vortexer](#eq-vortexer) and set the speed to 1400 rpm. Place the tube on the vortexer and mix thoroughly (approximately 40 second). 
 - Using a 20–200 µL pipette, pipette 135 µL of the mixture and dispense it into the [cavity slide](#eq-slide).
 - Slowly lower the [coverslip](#eq-coverslip) from the side so that it gently covers the sample on the cavity slide and avoid pressing down forcefully to reduce bubble formation.
-- Lightly press the coverslip with a [cotton swab](#eq-swab) to squeeze out and wipe any excess liquid from the edges using a cotton swab to keep the edges clean.
+- Lightly press the coverslip with a [cotton swab](#eq-swab) to squeeze out excess liquid, which is wiped out from the edges using a cotton swab to keep the edges clean.
 - Apply [nail polish](#eq-polish) to the four edges of the coverslip first to fix it in place and allow it to dry for approximately 5 mins.
 - Once the [nail polish](#eq-polish) is dry, apply [glue](#eq-glue) along the four edges of the [coverslip](#eq-coverslip) to further enhance the seal.
 - Mark the date and name of the sample on the slide.
 
-3. **Shutdown and storage**
+3. **Store the sample.**
 
 - Reduce the hotplate temperature and stirring speed to 0, then switch the [stirring hotplate](#eq-hotplate) off.
   > ⚠️ **Fire hazard:** Never leave the hotplate running unattended. If the water bath fully evaporates while the heater is still on, the residual agarose will carbonize and the container can ignite.
-- Store the remaining agarose at room temperature and let it solidify into a gel as it cools.
+- Store the remaining agarose at room temperature and let it solidify into a gel as it cools. Screw the cap onto the heat-resistant bottle to prevent water evaporation, but not too tight to allow air to flow in to the container as the sample cools down.
 
 ---
 
 ## EAL measurement
 
-1. **Background Measurement**
+1. **System Bootup and Power Calibration**
 
-- Close the laser shutter so that there is no excitation light after the objective lens.
-- In a dark environment, acquire multiple images under exactly the same imaging condition and image acquisition configurations as the rest of imaging sessions, except that the excitation laser is blocked.
+For this measurement, we need to know the exact excitation light power under the objective lens during image acquisition. This usually requires a calibration step, and we describe it below for a system using Pockels cells to control excitation light power:
 
-2. **Pockels Cell Calibration**
-
-- This procedure is required if one does not know the absolute excitation laser power after the objective lens, and the laser power is controlled by a Pockels Cell.
-- Open the laser shutter and set the laser to the desired wavelength.
+- Turn on the laser, set the laser to the desired wavelength, and wait for it to warm up until its power stabilizes. Normally, it takes 10-30 minutes depending on the laser.
+- Turn on the multi-photon microscope. Keep the room as dark as possible before turning on photomultiplier detectors. Carefully examine if there are any external light sources that can leak into the detector.
+- Place a power meter with appropriate range after the objective lens. Usually one can use a thermal power meter. For semiconductor power meters, it is more preferable to use an integration sphere, especially for high NA objective lens. Open the laser shutter and observe power readings.
 - Gradually increase the Pockels cell control voltage and record the corresponding laser power after the beam passes through the objective lens.
+- Repeat the procedure and establish a lookup table between Pockels cell control voltage and the absolute optical power after the objective lens. Since the relation is nonlinear, some interpolation may be needed later on.
 
-3. **Determination of the Fluorescence Signal Strength in the Tissue Phantom**
+2. **Locating Sample and its Surface**
 
-- Place the tissue phantom slide on the sample stage. Bring the objective lens close to the slide surface (distance less than its working distance, e.g., 1 mm). Apply immersion medium between the objective and the slide.
-- Set the laser power after the objective to a relatively low power (1-2 mW). Turn on the scanner and begin scanning the sample. Move the microscope z-stage with a step size of 10 µm to gradually move the objective away from the sample until fluorescence signal is first observed. Record the corresponding z-plane as $z_1$, which represents the lower boundary of the fluorescence volume.
-- Continue raising the microscope until the fluorescence signal completely disappears. Record the corresponding z-plane as $z_2$, which represents the surface of the fluorescent sample.
+- Place the tissue phantom slide on the microscope sample stage. Bring the objective lens close to the sample surface (at a distance less than its working distance, e.g., 1 mm). Apply immersion medium between the objective and the slide.
+- Set the laser power after the objective to a relatively low power, normally 1-2 mW, but this depends heavily on the system. Turn on laser scanning mirrors and begin streaming images. Gradually move the objective lens away from the sample at a fixed step size of typically 10-20 µm until fluorescence signal is first observed. 
+- Continue to bring the objective lens away from the sample until the fluorescence bead images disappear abruptly; this marks the location of a sample surface (If a THG channel is also available, one can corroborate this by seeing a strong transient THG signal generated at the interface between the lower surface of the coverslip and the sample). If possible, reset the z-coordinate of the sample surface to 0; otherwise, note down its coordinate. Regardless of the numerical value, the sample surface is denoted as $z_0$.
 
-4. **Scanning the Fluorescence Volume**
+3. **Verification of the Power Scaling of Multi-photon Excitation**
 
-- Divide the fluorescence volume ($z_2$ to $z_1$) into three sub-volumes along the axial direction.
-- Start from the sub-volume closest to the sample surface and acquire image stacks using a relatively low excitation power range. Refer to [the procedure](#power-range-determination) describing how the power range maintaining the fluorescence signal within the non-saturated 2PE regime is determined.
-- After completing the imaging of one sub-volume, increase the excitation power and move to the next deeper sub-volume.
-- Repeat the same procedure for each subsequent sub-volume: determine an appropriate excitation power range and acquire the corresponding image stack.
-- Use a step size of 10 µm between imaging planes.
-- For each image, record its excitation laser power and imaging depth.
+Before measuring the effective attenuation length (EAL), we needed to first determine the laser power and the corresponding fluorescence signal strength that has negligible excitation saturation.
+
+- Park the objective at a depth close to the sample surface, usually within 10 µm, keep the laser scanner on, and acquire several repeated images. Note down the excitation power.
+- Double the excitation power, and repeat the process of taking images again, without moving the sample or changing any imaging configurations.
+- Extract the top 1% brightest pixels from the images, and use it as the signal. For the case of 3PE, verify that the signal of the second image is approximately 8 times that of the first. If not, we need to reduce the excitation power, and repeat the two steps above until it is about 8 times. If no images become visible at a low excitation power, one needs to troubleshoot the noise level and the signal collection efficiency of the system.
+- Refer to [the procedure](#power-range-determination) for more details on describing how the power range maintaining the fluorescence signal within the non-saturated 2PE regime is determined.
+
+4. **Acquisition of a Depth Image Stack**
+
+- With the non-saturating excitation power derived from step 4, bring the objective closer to the sample until the fluorescence signal is too weak to see any image. Mark the axial location as $z_1$.
+- Acquire images between the surface $z_0$ and $z_1$. Advance the objective lens with a fixed step size (e.g., 10-20 µm) between these two z-coordinates. At each step, acquire multiple images repeatedly. For each image, record its excitation laser power and imaging depth.
+- After completing the first image stack, one can consider imaging deeper to further obtain EAL across a larger range in the sample.
+- Repeat the same procedure for each subsequent image stacks: determine an appropriate excitation power range and acquire the corresponding image stack.
+
+5. **Background Measurement**
+
+- Keep the laser shutter closed, and acquire multiple images _under exactly the same imaging condition and image acquisition configurations as the rest of imaging sessions_, except that the excitation laser is blocked.
+- One can choose to take these background frames at any point during the experiment. Sometimes it is preferred to take them at both the beginning and the end of the image experiment to verify that the background stayed constant throughout the experiment session.
 
 ---
 
@@ -138,18 +152,22 @@ Sample preparation setup
 
 - Calculate the mean of the background image stack to obtain the averaged background image. Refer to [the procedure](#eal-measurement) describing how the background images were acquired.
 - Subtract the averaged background image from all fluorescence images.
-- Negative values after subtraction are clipped to zero.
+- Negative values after subtraction are clipped to zero (for regular bitmap images).
 
 <a id="power-range-determination"></a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. **Determination of the Power Range for Unsaturated 2PE for Each Depth**
+
+
+2. **Determination of the Power Range for Unsaturated 2PE for Each Depth**
 
 - For each imaging depth, extract fluorescence signals under different excitation powers.
 - Convert EOM values to excitation power using `lookuptable.xlsx`.
 - Calculate the fluorescence signal at each power as the mean intensity of the brightest `TOP_PERCENT` percent of pixels.
-- Perform linear fits in log-log space using consecutive excitation powers and their corresponding fluorescence signals:
+- Take the natural logarithms of the fluorescence signal strength $S$ and imaging power $P$, then perform a linear fit of $\ln(S)$ versus $\ln(P)$.:
+  
 $$
-\log(\text{Signal}) = k \log(\text{Power}) + b
+\ln(S) = k \ln(P) + b
 $$
+
 - Determine the appropriate excitation power range by selecting the contiguous fitting window whose slope is closest to `TARGET_TWO_PHOTON_SLOPE = 2.0`.
 - An example of the fitting result is shown in the figure below.
 
@@ -164,21 +182,24 @@ $$
 
 ![Fitted slopes across imaging depths](images/depth_slope_summary.png)
 
-4. **EAL Estimation**
+4. **EAL Measurement through Linear Regression**
 
 - For each selected imaging depth, choose the second-highest excitation power within the valid (non-saturated) power range and extract the corresponding fluorescence signal.
-- Normalize the fluorescence signal by the excitation power:
+- Normalize the fluorescence signal strength $S$ by the excitation power $P$: $\ln \left(S/P^2\right)$
+
+- Perform a linear fit between imaging depth $z$ and the log-transformed normalized fluorescence signal $\ln \left(S/P^2\right)$.
+- Since the excitation power decays exponentially with imaging depth $z$ as $P = \exp(-z/\text{EAL})$:
+
 $$
-y = \log \left(\frac{S}{P^2}\right)
+\ln \left(S/P^2\right)=-\frac{2}{\text{EAL}}z+\text{const}
 $$
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; where:
-- $S$ is the fluorescence signal
-- $P$ is the excitation power
-- Perform a linear fit between imaging depth and the log-transformed normalized fluorescence signal.
-- Obtain the fitted slope $k$ and compute the effective attenuation length (EAL) using:
+
+- Perform a linear regression between $\ln \left(S/P^2\right)$ and $z$, one can obtain EAL based on its slope as
+  
 $$
-\text{EAL} = -\frac{2}{k}
+\text{EAL} = -\frac{2}{\text{Slope}}
 $$
+
 - An example of the EAL fitting result is shown in the figure below.
 
 
