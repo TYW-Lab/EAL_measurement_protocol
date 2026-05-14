@@ -2,9 +2,9 @@
 
 ## Materials:
 
-- [Agarose (Sigma Aldrich A4018-10G)](https://www.sigmaaldrich.com/US/en/product/sial/a4018)
-- [1-µm fluorescent beads (Thermo Fisher F13081)](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081); bead concentration $C_{fluo} = 1\times10^{7}\ \text{beads}/\text{µL}$
-- [1-µm non-fluorescent polystyrene beads (Polysciences 07310)](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL); bead concentration $C_{poly} = 4.55\times10^{7}\ \text{beads}/\text{µL}$
+- Agarose [(Sigma Aldrich A4018-10G)](https://www.sigmaaldrich.com/US/en/product/sial/a4018)
+- 1-µm fluorescent beads [(Thermo Fisher F13081)](https://www.thermofisher.com/order/catalog/product/F13081?SID=srch-srp-F13081); bead concentration $C_{fluo} = 1\times10^{7}\ \text{beads}/\text{µL}$
+- 1-µm non-fluorescent polystyrene beads [(Polysciences 07310)](https://polysciences.com/products/polybead-microspheres-100181m?srsltid=AfmBOorjVsqH1_RPydiDL_rl2QxODNqYwh8yssEixcAhqj7QJ9CAVFyL); bead concentration $C_{poly} = 4.55\times10^{7}\ \text{beads}/\text{µL}$
 
 ---
 
@@ -45,24 +45,26 @@ $$
 
 ![Sample preparation setup](images/sample_preparation.png)
 
-1. <a id="eq-scale"></a>[Scale with 1mg precision (e.g., Amazon B0B18FVKX9)](https://www.amazon.com/LACHOI-Analytical-Electronic-Scientific-Interface（100g/dp/B0B18FVKX9/ref=sr_1_23?crid=53N44CR6E6CP&dib=eyJ2IjoiMSJ9.JxhvFY01RhwK801tdZU35q9rQTYcC2tQthYvrtRK_c9qMeJaWoobppvpIbADMv_egsUysH1QiAmutARfYbUVo3xsRe3cZ6kqu_ip90FScCJDGi5FgLu_) 
+1. <a id="eq-scale"></a>Scale with 1mg precision (e.g., [LACHOI](https://www.amazon.com/LACHOI-Analytical-Precision-Windshield-Laboratory/dp/B0GHMV7Z21/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.ccMPGsZJ0tKpWmlwqix8yzGUBkZ4XjK_q_I3BPye39gfQcrevGunOC21RxgKLXStMaqD1t5InxUoVSx9qRvdC2-yKL0Z_nN8LZPwWQIYrOMJJb6b3YBMFCsPLQqqtK0hDJr-TkPLL_j-fWwSs4G6_A5FILBNnUc46eSeRtKkT8xNXzYX0gsQ3NQBPkSVmDLGOGnwcQWPaIEytEqduHJfP1zXk27wtOKRGpkATcU7n3k.Sv37NxTMiphxv9YBuYGcD3rBTdldUhgwLcYwBGTO8HQ&dib_tag=se&keywords=lab%2Bscale%2B0.001g&qid=1778768918&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1))
 2. <a id="eq-bottle"></a>Heat resistant bottle for mixing and storing agarose solution
-3. <a id="eq-hotplate"></a>[Cimarec stirring hotplate (e.g., Thermo Fisher SP88854100)](https://www.labdepotinc.com/cimarec-plus-stirring-hotplate-series?hsa_acc=5326096552&hsa_ad=&hsa_cam=21108713499&hsa_grp=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_src=x&hsa_tgt=&hsa_ver=&utm_campaign=Zombie+SKU+PMax&utm_medium=ppc&utm_source=adwords&utm_term=) 
-4. <a id="eq-tubes"></a>[Microcentrifuge tubes (e.g., Amazon B0BBV2LMW6)](https://www.amazon.com/Microcentrifuge-Sterilized-Plastic-Storage-Without/dp/B0BBV2LMW6/ref=sr_1_4?crid=25C67XB8W2600&dib=eyJ2IjoiMSJ9.xPCQBU3akLQF9rlTcVTk80aYDqlnaLlgpIB3o61syALNo4YVZ7pK2TRhUSHHzbtyePx1n4N1VfY8Aj9sUqRUC6LP2Sn7Orz1mKqxCnoEVPYP5y-dbozyev0I&th=1)
-5. <a id="eq-rack"></a>[Tube rack (e.g., Amazon B0D8R66MQ1)](https://www.amazon.com/microcentrifuge-centrifuge-Holder-0-5ml-2ml-Centrifugal/dp/B0D8R66MQ1/ref=sr_1_3?crid=1ZI3PYB3G9CUW&dib=eyJ2IjoiMSJ9.YORppysqg2ETX3WIv1hENrcBaf5mFiQT1zwaMrziZxj4AO9c8Xdj1H7rB4cdGXhXPN5NPZLih2-Zv4NAnjZxWRS0aKGhmVgp_CD9SMFMh5y9FSw52Hk&th=1) 
-6. <a id="eq-pipettes"></a>[Pipettes covering 2–20 µL and 20–200 µL volume ranges (e.g., Thermo Fisher F2-20R and Thermo Fisher F2-200R), stored in a pipette stand](https://pipette.com/F2-20R.html) 
+3. <a id="eq-hotplate"></a>Cimarec stirring hotplate (e.g., [Thermo Fisher SP88854100](https://www.labdepotinc.com/cimarec-plus-stirring-hotplate-series?hsa_acc=5326096552&hsa_ad=&hsa_cam=21108713499&hsa_grp=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_src=x&hsa_tgt=&hsa_ver=&utm_campaign=Zombie+SKU+PMax&utm_medium=ppc&utm_source=adwords&utm_term=)) 
+4. <a id="eq-tubes"></a>Microcentrifuge tubes 
+(e.g., [BKMAMLAB](https://www.amazon.com/Microcentrifuge-Sterilized-Plastic-Storage-Without/dp/B0BBV2LMW6/ref=sr_1_4?crid=25C67XB8W2600&dib=eyJ2IjoiMSJ9.xPCQBU3akLQF9rlTcVTk80aYDqlnaLlgpIB3o61syALNo4YVZ7pK2TRhUSHHzbtyePx1n4N1VfY8Aj9sUqRUC6LP2Sn7Orz1mKqxCnoEVPYP5y-dbozyev0I&th=1), 
+[Thermo Fisher 69720](https://www.thermofisher.com/order/catalog/product/69720))
+5. <a id="eq-rack"></a>Tube rack (e.g., [Weramics](https://www.amazon.com/microcentrifuge-centrifuge-Holder-0-5ml-2ml-Centrifugal/dp/B0D8R66MQ1/ref=sr_1_3?crid=1ZI3PYB3G9CUW&dib=eyJ2IjoiMSJ9.YORppysqg2ETX3WIv1hENrcBaf5mFiQT1zwaMrziZxj4AO9c8Xdj1H7rB4cdGXhXPN5NPZLih2-Zv4NAnjZxWRS0aKGhmVgp_CD9SMFMh5y9FSw52Hk&th=1), [Sigma Aldrich HS29025G-5EA](https://www.sigmaaldrich.com/US/en/product/sigma/hs29025g?utm_source=google&utm_medium=cpc&utm_campaign=23331190685&utm_content=194830326172&gad_source=1&gad_campaignid=23331190685&gbraid=0AAAAAD8kLQT9hVwcGrJZokAPJjItG0NNi&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWf9K6cRtAhF6BAougAjviP_rQfLuJX6rEvGCAW4uzJG8zfSE7cYZ4BoC63MQAvD_BwE))
+6. <a id="eq-pipettes"></a>Pipettes covering 2–20 µL and 20–200 µL volume ranges (e.g., [Thermo Fisher F2-20R and Thermo Fisher F2-200R](https://pipette.com/F2-20R.html)), stored in a pipette stand. 
 7. <a id="eq-sharpcontainer"></a>Sharps disposal container (requested from the BU EHS department)
-8. <a id="eq-vortexer"></a>[Vortexer (e.g., VWR IKA Model MV1)](https://www.marshallscientific.com/VWR-IKA-Model-MV1-Vortexer-p/vwr-ika.htm?srsltid=AfmBOop9bjFGTjvm6mfIoLMPdbEW2Kp7j4NSZWPVejsxydbgDRdUsfgK)
+8. <a id="eq-vortexer"></a>Vortexer (e.g., [VWR IKA Model MV1](https://www.marshallscientific.com/VWR-IKA-Model-MV1-Vortexer-p/vwr-ika.htm?srsltid=AfmBOop9bjFGTjvm6mfIoLMPdbEW2Kp7j4NSZWPVejsxydbgDRdUsfgK))
 
 **Additional items not labeled in the figure:**
 
-- <a id="eq-beaker"></a>[Beaker used as a water bath for heating and maintaining the agarose solution (e.g., Amazon B08X6KP8PS)](https://www.amazon.com/Feekoon-Measuring-Graduated-Cylinder-Cylinders/dp/B08X6KP8PS/ref=sr_1_4?dib=eyJ2IjoiMSJ9.fkiy-8L7Je-EhWoATqCnvyxkq-v-FXMNVzCA7z-qGeDNDcs54P547jp8ul-74plALojN6ZS2jLbsIO2a_mj1rIs66-stxX9k9EgyGbAiZ4CkSnhwNJoL-2j5WdnW8k42mjKDnWgq5s6cqeG)
-- <a id="eq-stirbar"></a>[Magnetic stir bar (Amazon B08433BR2B)](https://www.amazon.com/Magnetic-Stirrer-Mixer-Laboratory-Magnet/dp/B08433BR2B/ref=sr_1_2_sspa?crid=196CI2UFZHRCA&dib=eyJ2IjoiMSJ9.BECz6XLmK0t2h23_xptReyUTl5H8ZWBFAkGMivEEslBczVqOcwe5r1wQVG_yIOzjQ9UYQqf0aYLCqZXuW098UgIffXQruAhnDwCammP35x5B738wfu_AB1LG1uUR9&th=1)
-- <a id="eq-slide"></a>[Thick cavity well slide (e.g., United Scientific CSTK01 1-Concavity slide; 75 mm × 25 mm, 3 mm thick, concavity diameter ~16 mm, depth ~0.8 mm)](https://www.labdepotinc.com/p-12937-cavity-slides?utm_term=&utm_campaign=Zombie+SKU+PMax&utm_source=adwords&utm_medium=ppc&hsa_acc=5326096552&hsa_cam=22295522342&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&ga)
-- <a id="eq-coverslip"></a>[Coverslip (e.g., Thorlabs CG15CH2, #1.5H thickness, 22 mm × 22 mm)](https://www.thorlabs.com/item/CG15CH2)
-- <a id="eq-swab"></a>[Cotton swab (e.g., VWR International 10806-000-PK)](https://www.labdepotinc.com/p-64-cotton-tipped-wooden-applicators?utm_term=&utm_campaign=Performance+Max+-+AGT&utm_source=adwords&utm_medium=ppc&hsa_acc=5326096552&hsa_cam=15278638752&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa)
-- <a id="eq-polish"></a>[Nail polish (e.g., Amazon B0046MLZLG)](https://www.amazon.com/Sally-Hansen-Advanced-Nails-Fluid/dp/B0046MLZLG?th=1)
-- <a id="eq-glue"></a>[Krazy Glue (e.g., Amazon B0BXMWDM42)](https://www.amazon.com/Krazy-Glue-EPIKG86648R-KG86648R-All-Purpose/dp/B0BXMWDM42/ref=sr_1_8?crid=2H3DLY2HBZ1CP&dib=eyJ2IjoiMSJ9.ZVQWAnzUL49sypVj2K7n-leSSrUo7HbydfUd-yI2bc795v5Pu9ScxNl3HniW7hCEcXaGtl3xIBKb4z0qt5psn8JYd0jh3G0daA0tnMldLPD4FYgdFbVpa6mZ_Phrbjb&th=1)
+- <a id="eq-beaker"></a>Beaker used as a water bath for heating and maintaining the agarose solution (e.g., [Feekoon](https://www.amazon.com/Feekoon-Measuring-Graduated-Cylinder-Cylinders/dp/B08X6KP8PS/ref=sr_1_4?dib=eyJ2IjoiMSJ9.fkiy-8L7Je-EhWoATqCnvyxkq-v-FXMNVzCA7z-qGeDNDcs54P547jp8ul-74plALojN6ZS2jLbsIO2a_mj1rIs66-stxX9k9EgyGbAiZ4CkSnhwNJoL-2j5WdnW8k42mjKDnWgq5s6cqeG), [Sigma Aldrich CLS1000PACK-1EA](https://www.sigmaaldrich.com/US/en/product/aldrich/cls1000pack?utm_source=google&utm_medium=cpc&utm_campaign=23331190685&utm_content=194830326172&gad_source=1&gad_campaignid=23331190685&gbraid=0AAAAAD8kLQT9hVwcGrJZokAPJjItG0NNi&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWZbcfo3GxOpcyfg--j2mTKxfbjaw5erNaE9_reDF_eKj0rwbwRWKGBoC4g4QAvD_BwE))
+- <a id="eq-stirbar"></a>Magnetic stir bar (e.g., [EQUTY BAYMERS](https://www.amazon.com/Magnetic-Stirrer-Mixer-Laboratory-Magnet/dp/B08433BR2B/ref=sr_1_2_sspa?crid=196CI2UFZHRCA&dib=eyJ2IjoiMSJ9.BECz6XLmK0t2h23_xptReyUTl5H8ZWBFAkGMivEEslBczVqOcwe5r1wQVG_yIOzjQ9UYQqf0aYLCqZXuW098UgIffXQruAhnDwCammP35x5B738wfu_AB1LG1uUR9&th=1), [Sigma Aldrich Z282456-1EA](https://www.sigmaaldrich.com/US/en/product/aldrich/z282456?utm_source=google&utm_medium=cpc&utm_campaign=23331190685&utm_content=194830326172&gad_source=1&gad_campaignid=23331190685&gbraid=0AAAAAD8kLQT9hVwcGrJZokAPJjItG0NNi&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWYNIka7tA05o9Pq0OZgiNcob-QVLewpNvHFyLW8ki18Sl_QGfQ9gVxoCAWgQAvD_BwE))
+- <a id="eq-slide"></a>Thick cavity well slide (e.g., [United Scientific CSTK01 1-Concavity slide](https://www.labdepotinc.com/p-12937-cavity-slides?utm_term=&utm_campaign=Zombie+SKU+PMax&utm_source=adwords&utm_medium=ppc&hsa_acc=5326096552&hsa_cam=22295522342&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&ga); 75 mm × 25 mm, 3 mm thick, concavity diameter ~16 mm, depth ~0.8 mm)
+- <a id="eq-coverslip"></a>Coverslip (e.g., [Thorlabs CG15CH2](https://www.thorlabs.com/item/CG15CH2), #1.5H thickness, 22 mm × 22 mm)
+- <a id="eq-swab"></a>Cotton swab (e.g., [VWR International 10806-000-PK](https://www.labdepotinc.com/p-64-cotton-tipped-wooden-applicators?utm_term=&utm_campaign=Performance+Max+-+AGT&utm_source=adwords&utm_medium=ppc&hsa_acc=5326096552&hsa_cam=15278638752&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa))
+- <a id="eq-polish"></a>Nail polish (e.g., [Sally Hansen](https://www.amazon.com/Sally-Hansen-Advanced-Nails-Fluid/dp/B0046MLZLG?th=1))
+- <a id="eq-glue"></a>Glue (e.g., [Kcrazy glue](https://www.amazon.com/Krazy-Glue-EPIKG86648R-KG86648R-All-Purpose/dp/B0BXMWDM42/ref=sr_1_8?crid=2H3DLY2HBZ1CP&dib=eyJ2IjoiMSJ9.ZVQWAnzUL49sypVj2K7n-leSSrUo7HbydfUd-yI2bc795v5Pu9ScxNl3HniW7hCEcXaGtl3xIBKb4z0qt5psn8JYd0jh3G0daA0tnMldLPD4FYgdFbVpa6mZ_Phrbjb&th=1))
 
 ---
 
@@ -72,15 +74,15 @@ Sample preparation setup
 
 1. **Prepare bulk agarose stock.**
 
-If the agarose stock is not available, prepare fresh agarose stock following the steps below:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the agarose stock is not available, prepare fresh agarose stock following the steps below:
 
 - Weigh 1 g of agarose powder using the [scale](#eq-scale). Add the agarose powder to 100 mL of DI water in the [container](#eq-bottle), and place a [magnetic stir bar](#eq-stirbar) into the container.
 - Place the container into a [beaker](#eq-beaker), then pour 200 mL of water into the beaker.
 - Place the beaker on the [stirring hotplate](#eq-hotplate).
 - Set the hotplate temperature to 150 °C and set the stirring speed to 7. Heat until the agarose is fully dissolved and the solution becomes clear (approximately 30 min).
-- If we follow this step to prepare fresh agarose stock, skip step 2.
+- If we follow this step to prepare fresh agarose stock, skip to step 2.
 
-If the agarose stock is available, reheat it following the steps below:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If the agarose stock is available, reheat it following the steps below:
 
 - Slightly unscrew the cap of container of agarose.
 - Turn on the [stirring hotplate](#eq-hotplate) and set the stirring speed to 7. Heat until the agarose is fully dissolved and the solution becomes clear (approximately 30 min).
@@ -109,11 +111,11 @@ If the agarose stock is available, reheat it following the steps below:
 
 1. **System Bootup and Power Calibration**
 
-For this measurement, we need to know the exact excitation light power under the objective lens during image acquisition. This usually requires a calibration step, and we describe it below for a system using Pockels cells to control excitation light power:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For this measurement, we need to know the exact excitation light power under the objective lens during image acquisition. This usually requires a calibration step, and we describe it below for a system using Pockels cells to control excitation light power:
 
 - Turn on the laser, set the laser to the desired wavelength, and wait for it to warm up until its power stabilizes. Normally, it takes 10-30 minutes depending on the laser.
-- Turn on the multi-photon microscope. Keep the room as dark as possible before turning on photomultiplier detectors. Carefully examine if there are any external light sources that can leak into the detector.
-- Place a power meter with appropriate range after the objective lens. Usually one can use a thermal power meter. For semiconductor power meters, it is more preferable to use an integration sphere, especially for high NA objective lens. Open the laser shutter and observe power readings.
+- Turn on the multi-photon microscope. Keep the room as dark as possible before turning on photomultiplier detectors. Carefully examine if there are any external light sources that can leak into the detector. Possible signs of light leakage include a noticeably brighter background than usual. 
+- Place a power meter with an appropriate measurement range at or near the focal point of the objective lens to ensure that the entire laser beam is collected. Usually one can use a thermal power meter. For semiconductor power meters, it is more preferable to use an integration sphere, especially for high NA objective lens. Open the laser shutter and observe power readings.
 - Gradually increase the Pockels cell control voltage and record the corresponding laser power after the beam passes through the objective lens.
 - Repeat the procedure and establish a lookup table between Pockels cell control voltage and the absolute optical power after the objective lens. Since the relation is nonlinear, some interpolation may be needed later on.
 
@@ -125,19 +127,21 @@ For this measurement, we need to know the exact excitation light power under the
 
 3. **Verification of the Power Scaling of Multi-photon Excitation**
 
-Before measuring the effective attenuation length (EAL), we needed to first determine the laser power and the corresponding fluorescence signal strength that has negligible excitation saturation.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Before measuring the effective attenuation length (EAL), we needed to first determine the laser power and the corresponding fluorescence signal strength that has negligible excitation saturation.
 
 - Park the objective at a depth close to the sample surface, usually within 10 µm, keep the laser scanner on, and acquire several repeated images. Note down the excitation power.
 - Double the excitation power, and repeat the process of taking images again, without moving the sample or changing any imaging configurations.
-- Extract the top 1% brightest pixels from the images, and use it as the signal. For the case of 3PE, verify that the signal of the second image is approximately 8 times that of the first. If not, we need to reduce the excitation power, and repeat the two steps above until it is about 8 times. If no images become visible at a low excitation power, one needs to troubleshoot the noise level and the signal collection efficiency of the system.
+- Extract the top 1% brightest pixels from the images, and use it as the signal. For 2PE, verify that the signal of the second image is approximately 4× that of the first, while for 3PE it should be approximately 8×. If not, reduce the excitation power and repeat the two steps above until the expected scaling is achieved. If no images become visible at a low excitation power, one needs to troubleshoot the noise level and the signal collection efficiency of the system.
 - Refer to [the procedure](#power-range-determination) for more details on describing how the power range maintaining the fluorescence signal within the non-saturated 2PE regime is determined.
 
 4. **Acquisition of a Depth Image Stack**
 
-- With the non-saturating excitation power derived from step 4, bring the objective closer to the sample until the fluorescence signal is too weak to see any image. Mark the axial location as $z_1$.
+- With the non-saturating excitation power derived from step 3, select the highest excitation power within the non-saturating range. Bring the objective closer to the sample until the fluorescence signal is too weak to see any image. Mark the axial location as $z_1$.
 - Acquire images between the surface $z_0$ and $z_1$. Advance the objective lens with a fixed step size (e.g., 10-20 µm) between these two z-coordinates. At each step, acquire multiple images repeatedly. For each image, record its excitation laser power and imaging depth.
 - After completing the first image stack, one can consider imaging deeper to further obtain EAL across a larger range in the sample.
 - Repeat the same procedure for each subsequent image stacks: determine an appropriate excitation power range and acquire the corresponding image stack.
+
+<a id="bg-measurement"></a>
 
 5. **Background Measurement**
 
@@ -150,7 +154,7 @@ Before measuring the effective attenuation length (EAL), we needed to first dete
 
 1. **Background Subtraction**
 
-- Calculate the mean of the background image stack to obtain the averaged background image. Refer to [the procedure](#eal-measurement) describing how the background images were acquired.
+- Calculate the mean of the background image stack to obtain the averaged background image. Refer to [the procedure](#bg-measurement) describing how the background images were acquired.
 - Subtract the averaged background image from all fluorescence images.
 - Negative values after subtraction are clipped to zero (for regular bitmap images).
 
@@ -160,9 +164,9 @@ Before measuring the effective attenuation length (EAL), we needed to first dete
 2. **Determination of the Power Range for Unsaturated 2PE for Each Depth**
 
 - For each imaging depth, extract fluorescence signals under different excitation powers.
-- Convert EOM values to excitation power using `lookuptable.xlsx`.
+- Convert Pockels cells voltage value to excitation power using `lookuptable.xlsx`.
 - Calculate the fluorescence signal at each power as the mean intensity of the brightest `TOP_PERCENT` percent of pixels.
-- Take the natural logarithms of the fluorescence signal strength $S$ and imaging power $P$, then perform a linear fit of $\ln(S)$ versus $\ln(P)$.:
+- Take the natural logarithms of the fluorescence signal strength $S$ and excitation power $P$, then perform a linear fit of $\ln(S)$ versus $\ln(P)$.:
   
 $$
 \ln(S) = k \ln(P) + b
@@ -176,7 +180,7 @@ $$
 
 3. **Selection of the Depth Range for EAL Calculation**
 
-- Using the method described in Step 2, determine the optimal excitation power range and the corresponding fitted slope for each imaging depth.
+- Using the method described in step 2, determine the optimal excitation power range and the corresponding fitted slope for each imaging depth.
 - Plot the fitted slope as a function of imaging depth, as shown in the figure below.
 - Select a continuous depth range in which the fitted slopes remain close to 2. The selected depth range is then used for EAL estimation.
 
