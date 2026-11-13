@@ -58,7 +58,8 @@ $$
 
 - <a id="eq-beaker"></a>[Beaker used as a water bath for heating and maintaining the agarose solution (e.g., Amazon B08X6KP8PS)](https://www.amazon.com/Feekoon-Measuring-Graduated-Cylinder-Cylinders/dp/B08X6KP8PS/ref=sr_1_4?dib=eyJ2IjoiMSJ9.fkiy-8L7Je-EhWoATqCnvyxkq-v-FXMNVzCA7z-qGeDNDcs54P547jp8ul-74plALojN6ZS2jLbsIO2a_mj1rIs66-stxX9k9EgyGbAiZ4CkSnhwNJoL-2j5WdnW8k42mjKDnWgq5s6cqeG)
 - <a id="eq-stirbar"></a>[Magnetic stir bar (Amazon B08433BR2B)](https://www.amazon.com/Magnetic-Stirrer-Mixer-Laboratory-Magnet/dp/B08433BR2B/ref=sr_1_2_sspa?crid=196CI2UFZHRCA&dib=eyJ2IjoiMSJ9.BECz6XLmK0t2h23_xptReyUTl5H8ZWBFAkGMivEEslBczVqOcwe5r1wQVG_yIOzjQ9UYQqf0aYLCqZXuW098UgIffXQruAhnDwCammP35x5B738wfu_AB1LG1uUR9&th=1)
-- <a id="eq-slide"></a>[Thick cavity well slide (e.g., United Scientific CSTK01 1-Concavity slide; 75 mm × 25 mm, 3 mm thick, concavity diameter ~16 mm, depth ~0.8 mm)](https://www.labdepotinc.com/p-12937-cavity-slides?utm_term=&utm_campaign=Zombie+SKU+PMax&utm_source=adwords&utm_medium=ppc&hsa_acc=5326096552&hsa_cam=22295522342&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&ga)
+- <a id="eq-slide"></a>[Microscope slide (e.g., AmScope BS-50P-100S-22; 3" L × 2.5" W × 1" H)](https://www.amazon.com/AmScope-BS-50P-100S-22-Pre-Cleaned-Microscope-Coverslips/dp/B00T53OM5C/ref=sr_1_1_sspa?crid=3J3CXCG8J1SXG&dib=eyJ2IjoiMSJ9.vCgqzq6w3u1BdcnfSQycE7bo3tu-SqaRx1KfkT8DHDMb-xbq4vNoLg9fv1qysgoZfe95R6fjXf4g2CRMjyukr7XaaHSeWJGBWOStAep2UZ5KZ&th=1)
+- <a id="eq-isolator"></a>[Silicone isolator (e.g., Fisher Scientific 1-well silicone isolator; D. 13 mm, depth 2.0 mm)](https://www.fishersci.com/shop/products/silicone-isolator-1-well-5/5028090)
 - <a id="eq-coverslip"></a>[Coverslip (e.g., Thorlabs CG15CH2, #1.5H thickness, 22 mm × 22 mm)](https://www.thorlabs.com/item/CG15CH2)
 - <a id="eq-swab"></a>[Cotton swab (e.g., VWR International 10806-000-PK)](https://www.labdepotinc.com/p-64-cotton-tipped-wooden-applicators?utm_term=&utm_campaign=Performance+Max+-+AGT&utm_source=adwords&utm_medium=ppc&hsa_acc=5326096552&hsa_cam=15278638752&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa)
 - <a id="eq-polish"></a>[Nail polish (e.g., Amazon B0046MLZLG)](https://www.amazon.com/Sally-Hansen-Advanced-Nails-Fluid/dp/B0046MLZLG?th=1)
@@ -87,11 +88,12 @@ If the agarose stock is available, reheat it following the steps below:
 
 2. **Prepare the tissue phantom sample slide.**
 
+- Peel off the protective liners from both sides of the [silicone isolator](#eq-isolator) and attach one side to the center of the [microscope slide](#eq-slide). Press it down gently and evenly to exclude any air trapped between the isolator and the slide.
 - Retrieve one [microcentrifuge tube](#eq-tubes) from the cabinet and place it into the [tube rack](#eq-rack). Using the pipettes from the pipette stand, pipette 9 µL of fluorescent beads with a [2–20 µL pipette](#eq-pipettes) and 90 µL of non-fluorescent polystyrene beads with a [20–200 µL pipette](#eq-pipettes) into the same tube. Dispose of the pipette tips into the [sharps container](#eq-sharpcontainer).
 - Using a [100–1000 µL pipette](#eq-pipettes), pipette 351 µL of agarose from the container and dispense it into the same microcentrifuge tube. Keep the pipette tip below the liquid surface to avoid bubbles, and mix by pipetting up and down quickly to ensure even mixing before the agarose starts to gel. Be sure to avoid generating bubbles during the process.
 - Turn on the [mini vortexer](#eq-vortexer) and set the speed to 1400 rpm. Place the tube on the vortexer and mix thoroughly (approximately 40 second). 
-- Using a [100–1000 µL pipette](#eq-pipettes), pipette 351 µL of the mixture and dispense it into the [cavity slide](#eq-slide).
-- Slowly lower the [coverslip](#eq-coverslip) from the side so that it gently covers the sample on the cavity slide and avoid pressing down forcefully to reduce bubble formation.
+- Using a [100–1000 µL pipette](#eq-pipettes), pipette 351 µL of the mixture and dispense it into the center of the [silicone isolator](#eq-isolator).
+- Slowly lower the [coverslip](#eq-coverslip) from the side so that it gently covers the sample in the [silicone isolator](#eq-isolator) and avoid pressing down forcefully to reduce bubble formation.
 - Lightly press the coverslip with a [cotton swab](#eq-swab) to squeeze out excess liquid, which is wiped out from the edges using a cotton swab to keep the edges clean.
 - Apply [nail polish](#eq-polish) to the four edges of the coverslip first to fix it in place and allow it to dry for approximately 5 mins.
 - Once the [nail polish](#eq-polish) is dry, apply [glue](#eq-glue) along the four edges of the [coverslip](#eq-coverslip) to further enhance the seal.
