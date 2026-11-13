@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PVScan version="6.0.64.89" date="11/12/2026 4:54:18 PM" notes="">
+  <SystemIDs SystemID="2454-E368-B322-4826-22BF-3FBC-B3A7-4193">
+    <SystemID SystemID="5096 Boston Devor" Description="" />
+  </SystemIDs>
+  <PVStateShard>
+    <PVStateValue key="activeMode" value="Galvo" />
+    <PVStateValue key="bitDepth" value="16" />
+    <PVStateValue key="currentScanAmplitude">
+      <IndexedValue index="XAxis" value="4.2035577285" />
+      <IndexedValue index="YAxis" value="4.2035577285" />
+    </PVStateValue>
+    <PVStateValue key="currentScanCenter">
+      <IndexedValue index="XAxis" value="0" />
+      <IndexedValue index="YAxis" value="0" />
+    </PVStateValue>
+    <PVStateValue key="dwellTime" value="3" />
+    <PVStateValue key="framePeriod" value="0.940032" />
+    <PVStateValue key="interlacedScanTrackCount" value="0" />
+    <PVStateValue key="laserPower">
+      <IndexedValue index="0d0714b7-1c58-4a78-a8e9-6856e5c542ff" value="53.3333333333331" description="1300nm" />
+      <IndexedValue index="1a394ccb-4f0c-44f8-b89f-a955c5ab2af7" value="997.777777777779" description="1700nm" />
+      <IndexedValue index="21c76260-009c-4efb-8893-1fa2e896205b" value="999.959309895833" description="Monaco_Gate" />
+      <IndexedValue index="ff936cd1-2349-4eab-9640-0d3fab143900" value="899.929470486111" description="Ti:Sapph" />
+    </PVStateValue>
+    <PVStateValue key="linesPerFrame" value="512" />
+    <PVStateValue key="maxVoltage">
+      <IndexedValue index="XAxis" value="0.70059295475" />
+      <IndexedValue index="YAxis" value="0.70059295475" />
+    </PVStateValue>
+    <PVStateValue key="micronsPerPixel">
+      <IndexedValue index="XAxis" value="0.21142578125" />
+      <IndexedValue index="YAxis" value="0.21142578125" />
+      <IndexedValue index="ZAxis" value="1" />
+    </PVStateValue>
+    <PVStateValue key="minVoltage">
+      <IndexedValue index="XAxis" value="-0.70059295475" />
+      <IndexedValue index="YAxis" value="-0.70059295475" />
+    </PVStateValue>
+    <PVStateValue key="objectiveLens" value="b9bb422a-ca9a-496b-a85f-d75bee25d710" description="Olympus 25x" />
+    <PVStateValue key="objectiveLensMag" value="25" />
+    <PVStateValue key="objectiveLensNA" value="1.05" />
+    <PVStateValue key="opticalZoom" value="6" />
+    <PVStateValue key="pixelsPerLine" value="512" />
+    <PVStateValue key="pmtGain">
+      <IndexedValue index="0d126241-6c69-45c1-8e67-a8e1833b0d74" value="530" description="GigaQuant Ch4 (A2-HS2)" />
+      <IndexedValue index="44f5cd12-0e5d-45de-861b-1ae62efc56c7" value="800" description="GigaQuant Ch1 (A1-HS1)" />
+      <IndexedValue index="674204f6-80d6-4200-bb4e-7c1b68743a08" value="600" description="GigaQuant Ch2 (A1-HS2)" />
+      <IndexedValue index="84378b90-d524-45ef-b951-300a06361181" value="750" description="GigaQuant Ch3 (A2-HS1)" />
+    </PVStateValue>
+    <PVStateValue key="positionCurrent">
+      <SubindexedValues index="XAxis">
+        <SubindexedValue subindex="b7b7c626-7f49-496c-8645-903cc6470c53" value="-1147.648" description="MAMC X-Axis" />
+      </SubindexedValues>
+      <SubindexedValues index="YAxis">
+        <SubindexedValue subindex="eae85600-114d-4d76-87a4-320580d3e8f6" value="1896.072" description="MAMC Y-Axis" />
+      </SubindexedValues>
+      <SubindexedValues index="ZAxis">
+        <SubindexedValue subindex="9f6f03ee-1f35-406f-a089-fcaea83b4a4f" value="-4897.375" />
+      </SubindexedValues>
+    </PVStateValue>
+    <PVStateValue key="rastersPerFrame" value="8" />
+    <PVStateValue key="rotation" value="0" />
+    <PVStateValue key="samplesPerPixel" value="1" />
+    <PVStateValue key="scanLinePeriod" value="0.001836" />
+    <PVStateValue key="useInterlacedScanPattern" value="False" />
+    <PVStateValue key="xYStageGridIndex" value="-1" />
+    <PVStateValue key="xYStageGridXIndex" value="-1" />
+    <PVStateValue key="xYStageGridYIndex" value="-1" />
+    <PVStateValue key="yAspectExpansion" value="1" />
+    <PVStateValue key="zDevice" value="9f6f03ee-1f35-406f-a089-fcaea83b4a4f" />
+  </PVStateShard>
+  <Sequence type="Single" cycle="1" time="16:54:18.7820665" xYStageGridNumXPositions="0" xYStageGridNumYPositions="0" xYStageGridOverlapPercentage="10" xYStageGridXOverlap="10" xYStageGridYOverlap="10">
+    <PVStateShard />
+    <Frame relativeTime="0" absoluteTime="0.107399400000304" index="1" parameterSet="CurrentSettings">
+      <File channel="3" channelName="Ch 3 (Green)" page="1" filename="z=-4897.3_EOM=53-700_Cycle00001_Ch3_000001.ome.tif" />
+      <ExtraParameters lastGoodFrame="0" />
+      <PVStateShard />
+    </Frame>
+  </Sequence>
+</PVScan>
